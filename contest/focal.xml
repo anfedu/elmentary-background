@@ -1,0 +1,38 @@
+<background>
+  <starttime>
+    <year>2020</year>
+    <month>04</month>
+    <day>01</day>
+    <hour>00</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+  <!-- This animation will start at midnight. -->
+  <static>
+    <duration>1795.0</duration>
+    <file>/usr/share/backgrounds/afternoonbeach.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/afternoonbeach.jpg</from>
+    <to>/usr/share/backgrounds/darkgreen.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/usr/share/backgrounds/darkgreen.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/darkgreen.jpg</from>
+    <to>/usr/share/backgrounds/snowmountain.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/usr/share/backgrounds/snowmountain.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/snowmountain.jpg</from>
+    <to>/usr/share/backgrounds/afternoonbeach.jpg</to>
+  </transition>
+</background>
